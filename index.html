@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta charset = "UTF-8">
+    <meta name = "Author" content = "Kevin Murray">
+    <meta name = "description" content = "The home page for my survey and quiz website.">
+    <meta property = "og:image" content = "images/Survey-Research-1200x900.png">
+    <meta property = "og:description" content = "The home page for my survey and quiz website.">
+    <meta property = "og:title" content = "Home Page">
+    
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="images\survey.png" type="image/x-icon">
+
+    <style>
+        body {
+          background-image: url('images/kelly-osbourne-loves-calm-down-now-app-calm-down-now-calming-png-background-1500_825.png');
+        }
+    </style>
+
+    <title>Home Page</title>
+</head>
+
+<body>
+    <nav>
+        <fieldset>
+            <legend>Links to other pages</legend>
+            <ul>
+                <li><a href="index.html">Home page</a></li>
+                <li><a href="quiz.html">Quiz</a></li>
+                <li><a href="survey.html">Survey</a></li>
+            </ul>
+        </fieldset>
+    </nav>
+
+    <header>
+        <h1>Welcome To My Site!</h1>
+        <br>
+        <p>
+            <em>On this site you can take our short quiz and then you can fill out our survey.</em>  <br><br>
+            <strong>Only way that we can get better is by hearing what you have to say!</strong>  <br><br>
+            <h2>Log In Below</h2>
+        </p>
+    </header>
+
+    <main>
+        <fieldset>
+            <legend>User Information</legend>
+            <form action="#">
+                <ul>
+                    <li><label for="username">User Name:</label>
+                    <input type="text" id="username" name="user.name"></li>
+                    
+                    <li><label for="password">Password:</label>
+                    <input type="password" id="password" name="user.password"></li>
+
+                    <li><label for="idNumber">User Identification Number:</label>
+                    <input type="text" id="idNumber" name="user.idNumber"></li>
+
+                    <li><label for="date">Today's Date mm/dd/yyyy:</label>
+                    <input type="text" id="date" name="user.date"></li>
+                </ul>
+            </form>
+        </fieldset>
+    </main>
+</body>

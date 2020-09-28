@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta charset = "UTF-8">
+    <meta name = "Author" content = "Kevin Murray">
+    <meta name = "description" content = "A short survey for people to take">
+    <meta property = "og:image" content = "images/Survey-Research-1200x900.png">
+    <meta property = "og:description" content = "A short survey for people to take">
+    <meta property = "og:title" content = "Survey">
+    
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="images\survey.png" type="image/x-icon">
+    
+    <style>
+        body {
+          background-image: url('images/kelly-osbourne-loves-calm-down-now-app-calm-down-now-calming-png-background-1500_825.png');
+        }
+    </style>
+    
+    <title>Survey</title>
+</head>
+
+<body>
+    <nav>
+        <fieldset>
+            <legend>Links to other pages</legend>
+            <ul>
+                <li><a href="index.html">Home page</a></li>
+                <li><a href="quiz.html">Quiz</a></li>
+                <li><a href="survey.html">Survey</a></li>
+            </ul>
+        </fieldset>
+    </nav>
+    
+    <header>
+        <H1><STRONG>THANK YOU!</STRONG></H1>
+        <p>
+            We appriciate you visiting our site. <em>Without users like you we could not continue.</em> <br><br>
+            <strong>PLEASE</strong> take a minute to fill out this survey and tell us how we can get better.
+        </p>
+    </header>
+
+    <main>        
+        <fieldset>
+            <legend>Survey</legend>
+            <form action="#">
+                <ul>
+                    <li><label for="name">Name:</label>
+                    <input type="text" id="name" name="user.name"></li>
+                    
+                    <li><label for="email">Password:</label>
+                    <input type="text" id="email" name="user.email"></li>
+
+                    <li><label for="phoneNumber">User Identification Number:</label>
+                    <input type="text" id="phoneNumber" name="user.phoneNumber"></li>
+
+                    <li><label for="response">Please tell us anything we can improve on</label></li>
+                    <li><textarea id="response" name="user.response" rows="8" cols="36"></textarea></li>
+                </ul>
+            <button type="submit">Submit</button>
+            </form>
+        </fieldset>
+    </main>
+</body>
+</html>
